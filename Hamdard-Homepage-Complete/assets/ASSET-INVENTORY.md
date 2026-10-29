@@ -1,0 +1,90 @@
+# Asset inventory
+
+All images/icons included in this folder.
+
+- `01_25ccc378-a5bb-45e7-865b-0f8213618d6e-removebg-preview 2.png` — 800 × 800
+- `01_25ccc378-a5bb-45e7-865b-0f8213618d6e-removebg-preview 6.png` — 800 × 800
+- `ASSET-INVENTORY.md`
+- `Certification & Quality Logos Banner 1.png` — 2476 × 826
+- `Combo17-removebg-preview 1 (1).png` — 1104 × 920
+- `Combo17-removebg-preview 1 (2).png` — 1104 × 920
+- `Combo17-removebg-preview 1 (3).png` — 1104 × 920
+- `Combo17-removebg-preview 1.png` — 1104 × 920
+- `Glossy Red Marquee Sale Badge 1.png` — 1092 × 728
+- `Group (10).png` — 49 × 49
+- `Group (11).png` — 53 × 58
+- `Group (12).png` — 45 × 51
+- `Group (13).png` — 56 × 61
+- `Group (14).png` — 59 × 72
+- `Group (15).png` — 123 × 132
+- `Group (16).png` — 56 × 55
+- `Group 133.png` — 1132 × 1565
+- `Group 157.png` — 1136 × 1565
+- `Group 167.png` — 1132 × 1565
+- `Group 175.png` — 1132 × 1565
+- `Group 180.png` — 1132 × 1565
+- `Group 186.png` — 1132 × 1565
+- `Group 43.png` — 29 × 59
+- `Group 44.png` — 69 × 64
+- `Group 61 (1).png` — 872 × 872
+- `Group 61.png` — 872 × 872
+- `Group 75.png` — 864 × 864
+- `Group 96.png` — 1132 × 1565
+- `HamdardGlucose-D500G-removebg-preview 2.png` — 872 × 872
+- `KachiGhaniMustardOil1Ltr_c6f5b062-2c73-437e-82c6-1b5fde9a908a-removebg-preview 2 (1).png` — 864 × 864
+- `KachiGhaniMustardOil1Ltr_c6f5b062-2c73-437e-82c6-1b5fde9a908a-removebg-preview 2 (2).png` — 864 × 864
+- `KachiGhaniMustardOil1Ltr_c6f5b062-2c73-437e-82c6-1b5fde9a908a-removebg-preview 2 (3).png` — 864 × 864
+- `KachiGhaniMustardOil1Ltr_c6f5b062-2c73-437e-82c6-1b5fde9a908a-removebg-preview 2.png` — 864 × 864
+- `Rectangle 11.png` — 712 × 481
+- `Rectangle 13.png` — 712 × 481
+- `Rectangle 15.png` — 712 × 481
+- `Rectangle 21.png` — 712 × 481
+- `Rectangle 24.png` — 712 × 481
+- `Rectangle 9.png` — 712 × 481
+- `SRA_Lite-01-removebg-preview 1 (1).png` — 796 × 800
+- `SRA_Lite-01-removebg-preview 1 (2).png` — 796 × 800
+- `SRA_Lite-01-removebg-preview 1 (3).png` — 796 × 800
+- `SRA_Lite-01-removebg-preview 1.png` — 796 × 800
+- `Vector (25).png` — 50 × 64
+- `Vector (26).png` — 39 × 39
+- `Vector (27).png` — 56 × 51
+- `Vector (28).png` — 66 × 66
+- `Vector (29).png` — 80 × 56
+- `Vector (30).png` — 59 × 59
+- `Vector (31).png` — 10 × 10
+- `akar-icons_phone.png` — 56 × 56
+- `attributes-banner.png` — 5760 × 1676
+- `category-beverages.png` — 712 × 481
+- `category-edible-oil.png` — 712 × 481
+- `category-health-care.png` — 712 × 481
+- `category-honey.png` — 712 × 481
+- `category-ready-to-cook.png` — 712 × 481
+- `category-spices.png` — 712 × 481
+- `hamdard-beverages-banner.png` — 2048 × 661
+- `hamdard-festival-banner.png` — 2048 × 683
+- `hamdard-homepage.css`
+- `hamdard-homepage.js`
+- `hero-offer-badge.png` — 1092 × 728
+- `icon-account.png` — 56 × 61
+- `icon-beverages.png` — 39 × 39
+- `icon-cart.png` — 66 × 66
+- `icon-check.png` — 80 × 56
+- `icon-combos.png` — 45 × 51
+- `icon-contact.png` — 56 × 56
+- `icon-edible-oil.png` — 29 × 59
+- `icon-health.png` — 56 × 51
+- `icon-honey.png` — 53 × 58
+- `icon-location.png` — 59 × 72
+- `icon-offer.png` — 50 × 64
+- `icon-ready-to-cook.png` — 69 × 64
+- `icon-spices.png` — 49 × 49
+- `my_hamdard_strore_com_png 1.png` — 732 × 208
+- `offer-6 1.png` — 5760 × 1676
+- `product-combo.png` — 1104 × 920
+- `product-glucose-d.png` — 872 × 872
+- `product-khaalis-masala.png` — 800 × 800
+- `product-mustard-oil.png` — 864 × 864
+- `product-rooh-afza.png` — 796 × 800
+- `product-whole-spice.png` — 864 × 864
+- `quality-certifications.png` — 2476 × 826
+- `store-logo.png` — 732 × 208

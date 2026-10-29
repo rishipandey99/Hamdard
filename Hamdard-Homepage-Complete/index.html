@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ed1c2b">
+  <title>My Hamdard Store — Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--red:#ed1c2b;--deep-red:#c91522;--ink:#171717;--muted:#6d6d6d;--line:#e6e6e6;--soft:#fff5f5;--max:1440px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:Arial,Helvetica,sans-serif;background:#fff;font-size:14px}a{color:inherit;text-decoration:none}button,input{font:inherit}.announcement{background:var(--red);color:#fff}.announcement__inner{max-width:var(--max);margin:auto;display:flex;justify-content:space-between;align-items:center;gap:18px;padding:10px 24px;font-size:13px}.announcement__item{white-space:nowrap}.store-header{max-width:var(--max);margin:auto;padding:24px;display:grid;grid-template-columns:230px minmax(260px,1fr) auto auto auto auto;align-items:center;gap:22px}.brand{font-size:23px;font-weight:700;line-height:1.1;letter-spacing:-1px}.brand span{color:var(--red);font-family:Georgia,serif;font-size:29px}.brand small{display:block;text-align:right;font-size:13px;letter-spacing:0}.brand-image{display:block;width:220px;max-width:100%}.brand-image img{display:block;width:100%;height:auto;object-fit:contain}.search{display:flex;align-items:center;border:1px solid #ddd;border-radius:40px;padding:5px 6px 5px 16px;min-width:0;box-shadow:0 2px 10px #00000008}.search input{border:0;outline:0;min-width:0;flex:1;padding:10px;background:transparent}.search button,.track-order,.nav-all{background:var(--red);color:white;border:0;border-radius:28px;padding:12px 22px;font-weight:700;cursor:pointer}.header-link{white-space:nowrap;font-weight:600}.header-link small{display:block;font-weight:400;color:var(--muted);font-size:11px}.trust-mark{text-align:center;border:2px solid #111;border-radius:50%;padding:8px 10px;font-family:Georgia,serif;font-weight:bold;color:var(--red);white-space:nowrap}.trust-mark small{display:block;font:8px Arial;color:#111;border-top:1px solid #111;padding-top:3px}.main-nav{display:flex;align-items:center;gap:0;padding:10px 20px;margin:0 20px 20px;background:#fff8f8;border-radius:14px;box-shadow:0 8px 24px #7e20200c;overflow-x:auto}.nav-all{border-radius:12px;white-space:nowrap;margin-right:14px}.nav-link{padding:12px 15px;white-space:nowrap;border-right:1px solid #e6dede;font-weight:600;display:flex;align-items:center;gap:9px}.nav-icon{width:24px;height:24px;object-fit:contain;flex:0 0 auto}.header-icon{width:24px;height:24px;object-fit:contain;vertical-align:middle;margin-right:5px}.header-location,.header-account,.header-cart{display:flex;align-items:center;gap:5px}.nav-link:hover{color:var(--red)}.track-order{margin-left:auto;border-radius:12px;white-space:nowrap}.hero{position:relative;max-width:var(--max);margin:0 auto;overflow:hidden}.hero-slide{display:none;position:relative}.hero-slide.active{display:block}.hero-slide img{display:block;width:100%;height:auto;aspect-ratio:3.1/1;object-fit:cover}.hero-slide.active .hero-background{display:block;width:100%;height:auto;aspect-ratio:3.1/1;object-fit:cover}.hero-copy{position:absolute;left:6.5%;top:8%;width:42%;z-index:2;color:#fff;text-shadow:0 1px 2px #8f1700}.hero-brand{display:block;width:54px!important;height:auto!important;aspect-ratio:auto!important;object-fit:contain!important;margin-bottom:8px}.hero-copy h1{font-size:clamp(24px,4.2vw,58px);line-height:.94;margin:0 0 10px;font-weight:800;letter-spacing:-1.2px}.hero-copy h1 span{color:#ffe23b}.hero-copy p{font-size:clamp(8px,1vw,14px);line-height:1.35;max-width:420px;margin:0 0 12px}.hero-shop-button{display:inline-block;background:#fff;color:#d71927;text-shadow:none;padding:8px 16px;border-radius:4px;font-weight:700;font-size:clamp(10px,1vw,14px)}.hero-slide .hero-offer-badge{position:absolute;z-index:3;left:39%;top:4%;width:17%;height:auto;aspect-ratio:auto;object-fit:contain;mix-blend-mode:normal;filter:drop-shadow(0 4px 4px #730b0b66)}.hero-dots{position:absolute;bottom:12px;left:0;right:0;display:flex;justify-content:center;gap:8px}.hero-dot{height:9px;width:9px;padding:0;border:1px solid white;border-radius:50%;background:#ffffff80;cursor:pointer}.hero-dot.active{background:#fff;width:25px;border-radius:10px}.benefits{max-width:var(--max);margin:0 auto 30px;padding:20px 24px;display:grid;grid-template-columns:repeat(4,1fr);background:#fff8f8}.benefit{display:flex;align-items:center;justify-content:center;gap:12px;padding:5px 15px;border-right:1px solid #e6dada}.benefit:last-child{border:0}.benefit__icon{font-size:28px;color:var(--red)}.benefit strong{display:block;color:var(--red);font-size:15px}.benefit small{display:block;color:var(--muted);margin-top:4px}.page-content{max-width:var(--max);padding:0 24px;margin:auto}.section-block{margin:30px 0}.section-heading{display:flex;justify-content:space-between;align-items:center;margin-bottom:15px}.section-heading h2{font-size:22px;margin:0}.view-all{background:#f1f1f1;padding:7px 12px;border-radius:3px;font-size:12px}.category-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:18px}.category-card{text-align:center;position:relative;border-radius:10px;padding-bottom:10px}.category-card__image{display:flex;align-items:center;justify-content:center;min-height:125px;border-radius:10px;background:#fff0d9;overflow:hidden}.category-card__image img{width:100%;height:125px;object-fit:cover}.category-card strong{display:block;position:relative;margin:-12px auto 0;background:#fff;padding:9px 8px 5px;border-radius:7px;width:85%;font-size:13px;box-shadow:0 2px 8px #0000000c}.category-card small{display:inline-block;color:white;background:var(--red);border-radius:10px;padding:4px 12px;font-size:10px;margin-top:5px}.product-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}.product-card{border:1px solid #bcbcbc;border-radius:5px;overflow:hidden;background:#fff;min-width:0}.product-card__visual{height:205px;display:flex;align-items:center;justify-content:center;position:relative;background:#ffca31;overflow:hidden}.product-card__visual.pink{background:#ffe1e4}.product-card__visual.green{background:#a9e8a9}.product-card__visual.cream{background:#efda98}.product-card__visual.orange{background:#d98c4c}.product-card__visual img{height:86%;width:82%;object-fit:contain;mix-blend-mode:multiply}.product-placeholder{width:70px;height:145px;border-radius:14px 14px 9px 9px;background:linear-gradient(90deg,#c3a05b,#fff1c5 40%,#c49b4b);border:2px solid #fff9d8;box-shadow:0 6px 12px #0002;position:relative;display:flex;align-items:center;justify-content:center;text-align:center;color:#b10c1b;font-size:10px;font-weight:bold;padding:5px}.product-placeholder:before{content:"";position:absolute;top:-17px;width:25px;height:20px;background:#e6c35f;border-radius:5px 5px 2px 2px;border:1px solid #ad893c}.product-placeholder.packet{width:110px;height:130px;border-radius:4px;background:linear-gradient(110deg,#e9d9b6,#fff7e6,#d3b98c);font-size:11px}.product-placeholder.packet:before{display:none}.product-placeholder.red{background:linear-gradient(90deg,#9d1523,#ff8790,#c91522);color:#fff}.product-placeholder.green{background:linear-gradient(90deg,#176b2c,#a3e56c,#237b32);color:#fff}.discount{position:absolute;right:8px;top:8px;background:var(--red);color:#fff;border-radius:3px;padding:5px 7px;font-size:11px;font-weight:bold}.wishlist{position:absolute;right:9px;bottom:9px;background:#fff;border-radius:50%;width:23px;height:23px;display:grid;place-items:center;color:var(--red)}.product-details{padding:10px}.product-type{font-size:10px;color:#777;text-transform:uppercase;margin:0 0 6px}.product-title{font-size:13px;font-weight:700;line-height:1.4;min-height:34px;margin:0}.rating{font-size:11px;color:#e8a300;margin:6px 0}.price{display:flex;align-items:center;gap:7px;margin:8px 0;font-size:13px}.price strong{font-size:15px}.price del{color:#888;font-size:11px}.product-actions{display:grid;grid-template-columns:1fr 1fr;gap:5px}.product-actions button{border:0;background:var(--red);color:#fff;border-radius:4px;padding:9px 4px;font-size:11px;font-weight:bold;cursor:pointer}.product-actions button:hover{background:var(--deep-red)}.attributes{position:relative;text-align:center;padding:65px 20px 50px;margin:50px calc((var(--max) - 100vw)/2) 40px;background:#fff;overflow:hidden}.attributes__decoration{position:absolute;top:0;left:0;right:0;font-size:34px;letter-spacing:14px;opacity:.75;white-space:nowrap}.attributes p{color:#555;margin:0 0 12px}.attributes h2{font-family:Georgia,serif;font-size:29px;color:#8c2636;margin:0 0 22px}.attributes__seal{display:inline-flex;flex-direction:column;background:#8f1e38;color:#fff;border:5px double #e7c58b;border-radius:50%;padding:22px 30px;font-family:Georgia,serif;font-size:20px;margin-bottom:25px}.attributes__badges{display:flex;justify-content:center;flex-wrap:wrap;gap:22px}.attribute-badge{width:100px;height:100px;border-radius:50%;border:4px double #d3bd8a;background:#f7efda;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:10px;font-weight:bold;padding:8px}.attribute-badge span{font-size:24px;color:#208a9c;margin-bottom:4px}.quality{background:#f7f7f7;text-align:center;padding:45px 24px;margin:0 calc((var(--max) - 100vw)/2)}.quality h2{font-size:23px;margin:0 0 12px}.quality p{max-width:850px;margin:0 auto 25px;line-height:1.6;color:#555}.quality-marks{display:flex;justify-content:center;align-items:center;gap:20px;flex-wrap:wrap}.quality-mark{border:3px double #1f6c99;border-radius:50%;width:90px;height:90px;display:grid;place-items:center;color:#1f6c99;font-weight:bold;font-size:13px;background:#fff}.attributes{padding:0;margin:28px calc(50% - 50vw);position:relative;overflow:hidden;background:#fff}.attributes__banner{display:block;width:100%;height:auto;max-height:300px;object-fit:contain}.quality-certifications{display:block;width:min(620px,100%);height:auto;object-fit:contain}.footer{background:#242424;color:#fff;text-align:center;padding:25px;margin-top:0}.footer p{margin:0;color:#ddd}
+    /* ===== Figma-match overrides ===== */
+    body{font-family:'Poppins',Arial,Helvetica,sans-serif}
+    button,input,select{font-family:inherit}
+    .announcement__inner{justify-content:space-around;padding:9px clamp(12px,2vw,28px);font-size:clamp(10px,.86vw,13px);gap:12px}
+    .announcement__item{font-weight:500}
+    .store-header{padding:clamp(10px,1.1vw,18px) clamp(12px,1.6vw,24px);grid-template-columns:clamp(150px,15vw,220px) minmax(160px,1fr) auto auto auto auto;gap:clamp(8px,1.4vw,22px)}
+    .brand-image{width:100%}
+    .search{padding:4px 5px 4px clamp(10px,1vw,16px)}
+    .search input{padding:clamp(6px,.7vw,10px);font-size:clamp(11px,.9vw,14px)}
+    .search button{padding:clamp(8px,.8vw,12px) clamp(14px,1.4vw,24px);font-size:clamp(11px,.9vw,14px)}
+    .header-link{font-size:clamp(11px,.92vw,14px)}
+    .header-link small{font-size:clamp(9px,.75vw,11px)}
+    .header-icon{width:clamp(18px,1.6vw,24px);height:clamp(18px,1.6vw,24px)}
+    .trust-mark{font-size:clamp(11px,1vw,15px);padding:6px 9px}
+    .main-nav{overflow:visible;max-width:calc(var(--max) - 40px);margin:0 auto 18px;padding:clamp(6px,.7vw,10px) clamp(8px,1vw,14px);gap:0;justify-content:space-between}
+    .nav-all{padding:clamp(8px,.9vw,13px) clamp(10px,1.3vw,22px);font-size:clamp(11px,.92vw,14px);margin-right:clamp(4px,.8vw,14px);flex:0 0 auto}
+    .nav-link{position:relative;flex:0 1 auto;padding:clamp(6px,.8vw,12px) clamp(5px,.75vw,14px);gap:clamp(4px,.5vw,9px);font-size:clamp(11px,.92vw,14px)}
+    .nav-link:last-of-type{border-right:0}
+    .nav-icon{width:clamp(16px,1.5vw,24px);height:clamp(16px,1.5vw,24px)}
+    .nav-badge{position:absolute;left:50%;top:-8px;transform:translateX(-35%);background:var(--red);color:#fff;font-size:10px;font-weight:500;line-height:1;padding:5px 9px;border-radius:12px;white-space:nowrap}
+    .nav-badge:after{content:"";position:absolute;left:50%;bottom:-3px;width:7px;height:7px;background:var(--red);transform:translateX(-50%) rotate(45deg)}
+    .track-order{padding:clamp(8px,.9vw,13px) clamp(10px,1.3vw,22px);font-size:clamp(11px,.92vw,14px);margin-left:clamp(4px,.8vw,14px);flex:0 0 auto}
+    /* product cards */
+    .product-grid{gap:clamp(12px,1.4vw,22px)}
+    .product-card{border:2px solid #111;border-radius:16px;background:#fff}
+    .product-card__visual{height:auto;aspect-ratio:1.2/1;border-bottom:1.5px solid #111}
+    .product-card__visual img{height:82%;width:82%}
+    .veg-badge{position:absolute;left:clamp(8px,.9vw,14px);top:clamp(8px,.9vw,14px);width:clamp(18px,1.6vw,24px);height:clamp(18px,1.6vw,24px);background:#fff;border:2px solid #0fb637;display:grid;place-items:center;z-index:2}
+    .veg-badge:after{content:"";width:55%;height:55%;border-radius:50%;background:#0fb637}
+    .discount{right:clamp(8px,.9vw,14px);top:clamp(8px,.9vw,14px);border-radius:8px;padding:clamp(5px,.55vw,8px) clamp(8px,.9vw,14px);font-size:clamp(10px,.85vw,14px);font-weight:500;z-index:2;background:#ed1c2b}
+    .wishlist{right:clamp(8px,.9vw,14px);top:calc(clamp(8px,.9vw,14px) + clamp(30px,2.6vw,40px));bottom:auto;width:clamp(26px,2.3vw,34px);height:clamp(26px,2.3vw,34px);background:#f6eeee;color:#111;z-index:2}
+    .wishlist svg{width:55%;height:55%;fill:none;stroke:#111;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+    .product-details{padding:clamp(10px,1vw,16px)}
+    .product-meta{display:flex;justify-content:space-between;align-items:center;gap:6px}
+    .product-type{font-size:clamp(10px,.85vw,14px);font-weight:500;color:#777;margin:0}
+    .rating{margin:0;font-size:clamp(10px,.85vw,13px);color:#111;white-space:nowrap}
+    .rating .star{color:#f7c02a;font-size:1.15em}
+    .product-title{font-size:clamp(13px,1.2vw,18px);font-weight:500;line-height:1.3;min-height:0;margin:clamp(4px,.5vw,8px) 0 clamp(8px,.9vw,14px)}
+    .price-row{display:flex;align-items:center;justify-content:space-between;gap:clamp(6px,.7vw,10px)}
+    .price{margin:0;gap:6px;flex-wrap:wrap}
+    .price strong{font-size:clamp(13px,1.15vw,17px);font-weight:500}
+    .price del{font-size:clamp(9px,.8vw,12px)}
+    .size-select{appearance:none;-webkit-appearance:none;flex:0 1 46%;min-width:0;border:2px solid #a5a5a5;border-radius:8px;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%23111' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat right 10px center;padding:clamp(5px,.55vw,8px) 26px clamp(5px,.55vw,8px) clamp(8px,.8vw,12px);font-size:clamp(10px,.9vw,14px);color:#111;cursor:pointer;text-align:center}
+    .product-actions{gap:clamp(6px,.7vw,10px);margin-top:clamp(10px,1vw,14px)}
+    .product-actions button{display:flex;align-items:center;justify-content:center;gap:6px;border-radius:10px;padding:clamp(8px,.85vw,12px) 4px;font-size:clamp(10px,.9vw,14px);font-weight:500}
+    .product-actions svg{width:clamp(12px,1vw,16px);height:clamp(12px,1vw,16px);fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:0 0 auto;pointer-events:none}
+    /* ===== Figma-exact desktop layout (1440 frame, 120px side gutters, full-bleed bands) ===== */
+    @media(min-width:1101px){
+      html,body{overflow-x:hidden}
+      .announcement__inner{max-width:1440px;height:32px;padding:0 120px;font-size:10px;font-weight:500;gap:24px;justify-content:space-between}
+      .store-header{max-width:1440px;padding:0 120px;height:92px;grid-template-columns:168px minmax(0,1fr) auto auto auto auto;gap:22px}
+      .brand-image{width:168px}
+      .search{height:36px;padding:3px 4px 3px 12px}
+      .search input{font-size:11px;padding:6px 8px}
+      .search button{padding:7px 16px;font-size:10px}
+      .header-link{font-size:11px}
+      .header-link small{font-size:7px}
+      .header-icon{width:16px;height:16px;margin-right:2px}
+      .trust-mark{font-size:11px;padding:5px 8px}
+      .trust-mark small{font-size:6px}
+      .main-nav{max-width:1440px;height:50px;margin:0 auto;padding:0 120px;border-radius:0;background:#fff8f8;box-shadow:0 0 0 100vmax #fff8f8;clip-path:inset(0 -100vmax);justify-content:space-between}
+      .nav-all{padding:7px 12px;font-size:10px;border-radius:5px;margin-right:12px}
+      .nav-link{padding:6px 12px;font-size:11px;gap:6px}
+      .nav-icon{width:15px;height:15px}
+      .nav-badge{font-size:6px;padding:3px 6px;top:-9px}
+      .track-order{padding:7px 12px;font-size:10px;border-radius:5px;margin-left:12px}
+      .hero{max-width:none;container-type:inline-size}
+      .hero-copy{left:6.5%;top:11%;width:46%}
+      .hero-brand{width:5.2cqw!important;margin-bottom:.8cqw}
+      .hero-copy h1{font-size:4.4cqw;line-height:1;margin:0 0 1cqw;letter-spacing:-.07cqw}
+      .hero-copy p{font-size:1cqw;max-width:34cqw;margin:0 0 1.4cqw}
+      .hero-shop-button{font-size:1.15cqw;padding:.7cqw 1.4cqw}
+      .benefits{max-width:1440px;margin:0 auto 20px;padding:20px 120px;box-shadow:0 0 0 100vmax #fff8f8;clip-path:inset(0 -100vmax)}
+      .benefit strong{font-size:18px}
+      .benefit small{font-size:13px}
+      .benefit__icon{font-size:30px}
+      .page-content{max-width:1440px;padding:0 120px}
+      .section-block{margin:34px 0}
+      .section-heading h2{font-size:28px;font-weight:600}
+      .view-all{font-size:11px;padding:6px 12px;border-radius:3px;background:#ececec}
+      .category-grid{gap:34px}
+      .category-card__image,.category-card__image img{min-height:115px;height:115px}
+      .category-card strong{font-size:12px;font-weight:500;padding:7px 6px 4px}
+      .category-card small{font-size:7px;padding:3px 10px}
+      .product-grid{gap:34px}
+      .product-card{border:1px solid #111;border-radius:7px}
+      .product-card__visual{aspect-ratio:1.22/1;border-bottom:1px solid #111}
+      .veg-badge{left:11px;top:11px;width:14px;height:14px;border-width:1.5px}
+      .discount{right:13px;top:12px;font-size:9px;padding:5px 8px;border-radius:4px;line-height:1}
+      .wishlist{right:13px;top:40px;width:16px;height:16px}
+      .product-details{padding:12px 15px 14px}
+      .product-type{font-size:9px}
+      .rating{font-size:9px}
+      .product-title{font-size:14px;margin:6px 0 10px}
+      .price strong{font-size:14px}
+      .price del{font-size:8px}
+      .size-select{flex:0 0 114px;font-size:10px;padding:5px 20px 5px 8px;border-width:1px;border-radius:4px;background-position:right 8px center}
+      .product-actions{gap:6px;margin-top:10px}
+      .product-actions button{font-size:10px;padding:8px 4px;border-radius:5px}
+      .product-actions svg{width:11px;height:11px}
+      .attributes{margin:20px -120px}
+      .attributes__banner{max-height:none}
+      .quality{margin:0 -120px;padding:40px 120px;box-shadow:0 0 0 100vmax #f7f7f7;clip-path:inset(0 -100vmax)}
+      .quality h2{font-size:22px}
+      .quality p{font-size:14px;max-width:900px}
+      .quality-certifications{width:520px}
+    }
+    @media(max-width:900px){.main-nav{overflow-x:auto;justify-content:flex-start}.nav-link{flex:0 0 auto}.nav-badge{display:none}}
+    @media(max-width:1100px){.brand-image{width:170px}.store-header{grid-template-columns:180px minmax(200px,1fr) auto auto;gap:14px}.header-location,.trust-mark{display:none}.main-nav{margin:0 12px 14px}.nav-link{padding:10px}.category-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.product-grid{gap:12px}.product-card__visual{height:170px}}
+    @media(max-width:700px){.hero-copy{left:6%;top:7%;width:43%}.hero-brand{width:30px!important;margin-bottom:3px}.hero-copy h1{font-size:clamp(16px,4.3vw,30px);margin-bottom:4px}.hero-copy p{font-size:6px;margin-bottom:5px;max-width:95%}.hero-shop-button{font-size:7px;padding:4px 7px}.hero-slide .hero-offer-badge{left:39%;top:3%;width:19%}body{font-size:13px}.announcement__inner{padding:8px 12px;overflow:auto;justify-content:flex-start;gap:20px;font-size:11px}.store-header{padding:15px 12px;grid-template-columns:1fr auto;gap:12px}.brand{font-size:18px}.brand span{font-size:23px}.search{grid-column:1/-1;grid-row:2}.search input{padding:8px}.search button{padding:10px 16px}.header-link{font-size:12px}.main-nav{margin:0 8px 12px;padding:8px;gap:4px}.nav-all{padding:11px 14px}.nav-link{padding:10px;font-size:12px}.track-order{padding:11px 14px}.hero-slide img{aspect-ratio:1.5/1;object-fit:cover}.benefits{grid-template-columns:repeat(2,1fr);padding:10px 6px;margin-bottom:22px}.benefit{justify-content:flex-start;padding:12px 8px;border-right:0;border-bottom:1px solid #eadede;gap:8px}.benefit:nth-child(odd){border-right:1px solid #eadede}.benefit:nth-last-child(-n+2){border-bottom:0}.benefit__icon{font-size:23px}.benefit strong{font-size:12px}.benefit small{font-size:10px}.page-content{padding:0 12px}.section-block{margin:23px 0}.section-heading h2{font-size:18px}.category-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}.category-card__image,.category-card__image img{min-height:90px;height:90px}.category-card strong{font-size:11px}.category-card small{font-size:9px;padding:4px 8px}.product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.product-card__visual{height:150px}.product-details{padding:8px}.product-title{font-size:12px}.price strong{font-size:13px}.product-actions button{font-size:10px;padding:8px 2px}.attributes{margin:35px -12px 25px;padding:55px 12px 35px}.attributes__decoration{font-size:22px;letter-spacing:6px}.attributes h2{font-size:24px}.attributes__badges{gap:9px}.attribute-badge{width:82px;height:82px;font-size:9px}.quality{margin:0 -12px;padding:35px 14px}.quality h2{font-size:19px}.quality-mark{width:70px;height:70px;font-size:11px}.footer{padding:20px 12px}}
+  </style>
+</head>
+<body>
+  <div class="announcement"><div class="announcement__inner"><span class="announcement__item">🚚 Free Shipping for orders above ₹499 across India.</span><span class="announcement__item">♧ Free Hamdard Khaalis Biryani Masala 10g with Every Order.</span><span class="announcement__item">◇ Authentic Hamdard Products</span><span class="announcement__item">Trusted Since 1906</span></div></div>
+  <header class="store-header">
+    <a class="brand brand-image" href="#top" aria-label="My Hamdard Store home"><img src="assets/store-logo.png" alt="My Hamdard Store"></a>
+    <form class="search" role="search" action="#products"><span aria-hidden="true">⌕</span><input type="search" placeholder="Search for products, categories or brands..." aria-label="Search products"><button type="submit">Search</button></form>
+    <a class="header-link header-location" href="#delivery"><img class="header-icon" src="assets/icon-location.png" alt=""><span><small>Hello</small>Check your Pincode</span></a>
+    <a class="header-link header-account" href="#account"><img class="header-icon" src="assets/icon-account.png" alt=""> Account</a>
+    <a class="header-link header-cart" href="#cart"><img class="header-icon" src="assets/icon-cart.png" alt=""> Cart <span id="cart-count">0</span></a>
+    <div class="trust-mark">Hamdard<small>TRUSTED SINCE 1906</small></div>
+  </header>
+  <nav class="main-nav" aria-label="Main navigation"><a class="nav-all" href="#categories">▦ All Categories　⌄</a><a class="nav-link" href="#offers"><span class="nav-badge">Upto 30%</span><img class="nav-icon" src="assets/icon-offer.png" alt=""> Offers</a><a class="nav-link" href="#beverages"><img class="nav-icon" src="assets/icon-beverages.png" alt=""> Beverages</a><a class="nav-link" href="#spices"><img class="nav-icon" src="assets/icon-spices.png" alt=""> Spices</a><a class="nav-link" href="#edible-oil"><img class="nav-icon" src="assets/icon-edible-oil.png" alt=""> Edible Oil</a><a class="nav-link" href="#honey"><img class="nav-icon" src="assets/icon-honey.png" alt=""> Honey</a><a class="nav-link" href="#ready-to-cook"><img class="nav-icon" src="assets/icon-ready-to-cook.png" alt=""> Ready to Cook</a><a class="nav-link" href="#health-care"><img class="nav-icon" src="assets/icon-health.png" alt=""> Health Care</a><a class="nav-link" href="#combos"><img class="nav-icon" src="assets/icon-combos.png" alt=""> Combos</a><a class="nav-link" href="#contact"><img class="nav-icon" src="assets/icon-contact.png" alt=""> Contact</a><a class="track-order" href="#delivery">♧ Track Order</a></nav>
+  <main id="top">
+    <section class="hero" aria-label="Featured offers">
+      <article class="hero-slide active">
+        <img class="hero-background" src="assets/hamdard-festival-banner.png" alt="Hamdard festive product display" fetchpriority="high">
+        <div class="hero-copy">
+          <img class="hero-brand" src="assets/store-logo.png" alt="My Hamdard Store">
+          <h1>Festival<br><span>Dhamaka Offer</span></h1>
+          <p>Lorem ipsum dolor sit amet consectetur. Integer pretium id non quis et mattis morbi. Lorem ipsum dolor sit amet consectetur. Integer pretium id non quis et.</p>
+          <a class="hero-shop-button" href="#offers">Shop Now</a>
+        </div>
+        <img class="hero-offer-badge" src="assets/hero-offer-badge.png" alt="Get up to 15% off">
+      </article>
+      <article class="hero-slide"><a href="#beverages"><img src="assets/hamdard-beverages-banner.png" alt="Hamdard beverages product collection" loading="lazy"></a></article>
+      <div class="hero-dots" aria-label="Choose banner"></div>
+    </section>
+    <section class="benefits" id="delivery"><div class="benefit"><span class="benefit__icon">🚚</span><div><strong>Free Shipping</strong><small>on orders above ₹499</small></div></div><div class="benefit"><span class="benefit__icon">♧</span><div><strong>100% Authentic</strong><small>Hamdard Products</small></div></div><div class="benefit"><span class="benefit__icon">▤</span><div><strong>Secure Payments</strong><small>Shop with confidence</small></div></div><div class="benefit"><span class="benefit__icon">🚚</span><div><strong>Pan India Delivery</strong><small>Fast & Reliable</small></div></div></section>
+    <div class="page-content">
+      <section class="section-block" id="categories"><div class="section-heading"><h2>Our Product Range</h2></div><div class="category-grid"><a class="category-card" href="#beverages"><span class="category-card__image"><img src="assets/category-beverages.png" alt="Beverages" loading="lazy"></span><strong>Beverages</strong><small>View More</small></a><a class="category-card" href="#spices"><span class="category-card__image"><img src="assets/category-spices.png" alt="Spices" loading="lazy"></span><strong>Spices</strong><small>View More</small></a><a class="category-card" href="#edible-oil"><span class="category-card__image"><img src="assets/category-edible-oil.png" alt="Edible Oil" loading="lazy"></span><strong>Edible Oil</strong><small>View More</small></a><a class="category-card" href="#honey"><span class="category-card__image"><img src="assets/category-honey.png" alt="Honey" loading="lazy"></span><strong>Honey</strong><small>View More</small></a><a class="category-card" href="#ready-to-cook"><span class="category-card__image"><img src="assets/category-ready-to-cook.png" alt="Ready to cook" loading="lazy"></span><strong>Ready to Cook</strong><small>View More</small></a><a class="category-card" href="#health-care"><span class="category-card__image"><img src="assets/category-health-care.png" alt="Health Care" loading="lazy"></span><strong>Health Care</strong><small>View More</small></a></div></section>
+      <section class="section-block" id="offers"><div class="section-heading"><h2>Best Sellers</h2><a class="view-all" href="#products">View All ›</a></div><div class="product-grid" id="products"></div></section>
+      <section class="section-block" id="combos"><div class="section-heading"><h2>Best Combos</h2><a class="view-all" href="#combos">View All ›</a></div><div class="product-grid" data-products="combo"></div></section>
+      <section class="section-block" id="roof-afza"><div class="section-heading"><h2>Rooh Afza</h2><a class="view-all" href="#roof-afza">View All ›</a></div><div class="product-grid" data-products="rooh"></div></section>
+      <section class="section-block" id="beverages"><div class="section-heading"><h2>Beverages</h2><a class="view-all" href="#beverages">View All ›</a></div><div class="product-grid" data-products="beverage"></div></section>
+      <section class="attributes" id="spices" aria-label="Prime attributes of Hamdard Khaalis">
+        <img class="attributes__banner" src="assets/attributes-banner.png" alt="Prime attributes of Hamdard Khaalis" loading="lazy">
+      </section>
+      <section class="section-block"><div class="section-heading"><h2>Khaalis Blended Spices</h2><a class="view-all" href="#spices">View All ›</a></div><div class="product-grid" data-products="blended"></div></section>
+      <section class="section-block"><div class="section-heading"><h2>Khaalis Powdered Spices</h2><a class="view-all" href="#spices">View All ›</a></div><div class="product-grid" data-products="powdered"></div></section>
+      <section class="section-block"><div class="section-heading"><h2>Khaalis Whole Spices</h2><a class="view-all" href="#spices">View All ›</a></div><div class="product-grid" data-products="whole"></div></section>
+      <section class="quality"><h2>We Believe in higher standards of quality</h2><p>Quality Control and Quality Assurance department at Hamdard ensure the right quality of raw material and strictly control the processes with modern technologies in order to manufacture the efficacious products.</p><div class="quality-marks"><img class="quality-certifications" src="assets/quality-certifications.png" alt="Quality certifications including GMP, BNV and FDA" loading="lazy"></div></section>
+    </div>
+  </main>
+  <footer class="footer" id="contact"><p>© My Hamdard Store — Demo homepage replica. Connect your Shopify products and collections before launch.</p></footer>
+  <script>
+    (function(){
+      /* Scale page to the physical screen so it looks like the Figma frame at 100% browser zoom (125%-scaled Windows screens etc). Delete this block to disable. */
+      try{var sw=window.screen.width,z=Math.min(1,Math.max(.75,sw/1920));if(sw>=1280&&window.innerWidth>=1100&&z<1){document.documentElement.style.zoom=z;}}catch(e){}
+      var slides=Array.from(document.querySelectorAll('.hero-slide'));var dots=document.querySelector('.hero-dots');var current=0;var timer;
+      slides.forEach(function(slide,index){var dot=document.createElement('button');dot.className='hero-dot'+(index===0?' active':'');dot.type='button';dot.setAttribute('aria-label','Show banner '+(index+1));dot.addEventListener('click',function(){show(index);restart();});dots.appendChild(dot);});
+      function show(index){current=(index+slides.length)%slides.length;slides.forEach(function(s,i){s.classList.toggle('active',i===current);});Array.from(dots.children).forEach(function(d,i){d.classList.toggle('active',i===current);});}
+      function restart(){clearInterval(timer);timer=setInterval(function(){show(current+1);},5000);}document.querySelector('.hero').addEventListener('mouseenter',function(){clearInterval(timer);});document.querySelector('.hero').addEventListener('mouseleave',restart);restart();
+      var productGroups={
+        best:{type:'EDIBLE OIL',title:'Hamdard Kachchi Ghani Mustard Oil',price:'₹420.00',old:'₹520.00',bg:'',image:'assets/product-mustard-oil.png',label:'MUSTARD OIL'},
+        combo:{type:'COMBO PACK',title:'Zaffran Ka Zaika Combo',price:'₹420.00',old:'₹520.00',bg:'cream',image:'assets/product-combo.png',label:'KHAALIS COMBO',packet:true},
+        rooh:{type:'BEVERAGES',title:'Rooh Afza Sharbat',price:'₹120.00',old:'₹150.00',bg:'pink',image:'assets/product-rooh-afza.png',label:'ROOH AFZA',red:true},
+        beverage:{type:'BEVERAGES',title:'Hamdard Gluco-C D 400 + 100g',price:'₹42.00',old:'₹50.00',bg:'green',image:'assets/product-glucose-d.png',label:'GLUCO-C D',green:true,packet:true},
+        blended:{type:'BLENDED SPICES',title:'Hamdard Khaalis Haleem Masala',price:'₹65.00',old:'₹80.00',bg:'cream',image:'assets/product-khaalis-masala.png',label:'HALEEM MASALA',packet:true},
+        powdered:{type:'POWDERED SPICES',title:'Hamdard Khaalis Turmeric Powder',price:'₹204.00',old:'₹240.00',bg:'cream',image:'assets/product-khaalis-masala.png',label:'TURMERIC POWDER',packet:true},
+        whole:{type:'WHOLE SPICES',title:'Hamdard Khaalis Cumin (Jeera)',price:'₹30.60',old:'₹36.00',bg:'orange',image:'assets/product-whole-spice.png',label:'CUMIN JEERA',packet:true}
+      };
+      var sizeMap={'MUSTARD OIL':['750 ml','1 L','500 ml'],'KHAALIS COMBO':['Pack of 3','Pack of 5'],'ROOH AFZA':['250 ml','750 ml'],'GLUCO-C D':['500 g','100 g'],'HALEEM MASALA':['50 g','100 g'],'TURMERIC POWDER':['500 g','200 g'],'CUMIN JEERA':['50 g','100 g']};
+      var icoCart='<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.6 12.2a1 1 0 0 0 1 .8h9.2a1 1 0 0 0 1-.8L20.5 7H6"/></svg>';
+      var icoGift='<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13M5 12v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-8M7.5 8a2.5 2.5 0 1 1 0-5C10 3 12 8 12 8s2-5 4.5-5a2.5 2.5 0 1 1 0 5"/></svg>';
+      var icoHeart='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg>';
+      function card(data,index){var discount=Math.round((1-parseFloat(data.price.replace(/[^0-9.]/g,''))/parseFloat(data.old.replace(/[^0-9.]/g,'')))*100);var fmt=function(p){return p.replace('₹','Rs. ');};var sizes=sizeMap[data.label]||['1 unit'];var opts=sizes.map(function(s){return '<option>'+s+'</option>';}).join('');return '<article class="product-card"><a class="product-card__visual '+(data.bg||'')+'" href="#contact"><span class="veg-badge" title="Vegetarian"></span><span class="discount">'+discount+'% OFF</span><span class="wishlist" role="button" aria-label="Add to wishlist">'+icoHeart+'</span><img src="'+data.image+'" alt="'+data.title+'" loading="lazy"></a><div class="product-details"><div class="product-meta"><p class="product-type">'+data.type+'</p><div class="rating" aria-label="Rated 4.9 out of 5"><span class="star">★</span> 4.9 (102)</div></div><p class="product-title">'+data.title+'</p><div class="price-row"><div class="price"><strong>'+fmt(data.price)+'</strong><del>'+fmt(data.old)+'</del></div><select class="size-select" aria-label="Select size">'+opts+'</select></div><div class="product-actions"><button type="button" class="add-cart">'+icoCart+'Add to Cart</button><button type="button" class="buy-now">'+icoGift+'Buy now</button></div></div></article>';}
+      function oldCard(data,index){var discount=Math.round((1-parseFloat(data.price.replace(/[^0-9.]/g,''))/parseFloat(data.old.replace(/[^0-9.]/g,'')))*100);return '<article class="product-card"><a class="product-card__visual '+(data.bg||'')+'" href="#contact"><span class="discount">'+discount+'% OFF</span><img src="'+data.image+'" alt="'+data.title+'" loading="lazy"><span class="wishlist" aria-label="Add to wishlist">♡</span></a><div class="product-details"><p class="product-type">'+data.type+'</p><p class="product-title">'+data.title+'</p><div class="rating" aria-label="Rated 5 out of 5">★★★★★ <span style="color:#777">(42)</span></div><div class="price"><strong>'+data.price+'</strong><del>'+data.old+'</del></div><div class="product-actions"><button type="button" class="add-cart">Add to Cart</button><button type="button" class="buy-now">Buy Now</button></div></div></article>';}
+      document.querySelector('#products').innerHTML=Array.from({length:4},function(_,i){return card(productGroups.best,i);}).join('');
+      document.querySelectorAll('[data-products]').forEach(function(grid){var key=grid.getAttribute('data-products');grid.innerHTML=Array.from({length:4},function(_,i){return card(productGroups[key],i);}).join('');});
+      var cartCount=0;document.addEventListener('click',function(event){if(event.target.classList.contains('add-cart')){cartCount++;document.querySelector('#cart-count').textContent=cartCount;var b=event.target,h=b.innerHTML;b.textContent='Added ✓';setTimeout(function(){b.innerHTML=h;},900);}if(event.target.classList.contains('buy-now')){var b2=event.target,h2=b2.innerHTML;b2.textContent='Demo only';setTimeout(function(){b2.innerHTML=h2;},900);}});
+      document.querySelector('.search').addEventListener('submit',function(event){event.preventDefault();var query=this.querySelector('input').value.trim().toLowerCase();if(!query)return;var matches=Array.from(document.querySelectorAll('.product-card')).filter(function(card){return card.textContent.toLowerCase().includes(query);});document.querySelectorAll('.product-card').forEach(function(card){card.style.display=matches.includes(card)?'':'none';});document.querySelector('#products').scrollIntoView({behavior:'smooth',block:'start'});});
+    })();
+  </script>
+</body>
+</html>
